@@ -111,19 +111,19 @@ function App() {
           <Grid>
             <Grid.Row columns={5} verticalAlign='middle'>
               <Grid.Column>
-                <img src='images/sponsors/tum.jpeg' width={80} />
+                <img src='images/sponsors/tum.jpeg' height={40} />
               </Grid.Column>
               <Grid.Column>
-                <img src='images/sponsors/camp.jpeg' width={80} />
+                <img src='images/sponsors/camp.jpeg' height={40} />
               </Grid.Column>
               <Grid.Column>
-                <img src='images/sponsors/mri.jpeg' width={80} />
+                <img src='images/sponsors/mri.jpeg' height={40} />
               </Grid.Column>
               <Grid.Column>
-                <img src='images/sponsors/jhu.jpeg' width={80} />
+                <img src='images/sponsors/jhu.jpeg' height={40} />
               </Grid.Column>
               <Grid.Column>
-                <img src='images/sponsors/nsk.jpeg' width={80} />
+                <img src='images/sponsors/nsk.jpeg' height={40} />
               </Grid.Column>
             </Grid.Row>
           </Grid>
