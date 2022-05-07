@@ -85,7 +85,7 @@ function App() {
 
         <Container textAlign='center'>
           <Segment placeholder>
-            <Grid columns={2} relaxed='very'>
+            <Grid columns={2} relaxed='very' stackable>
               <Grid.Column>
                 <Header as='h4'>Demo</Header>
 
@@ -103,27 +103,28 @@ function App() {
                   source='youtube' />
               </Grid.Column>
             </Grid>
-
-            <Divider vertical />
           </Segment>
 
 
           <Grid>
-            <Grid.Row columns={5} verticalAlign='middle'>
+            <Grid.Row columns={6} verticalAlign='middle'>
               <Grid.Column>
-                <img src='images/sponsors/tum.jpeg' height={40} />
+                <img src='images/sponsors/tum.jpeg' className='sponsors'/>
               </Grid.Column>
               <Grid.Column>
-                <img src='images/sponsors/camp.jpeg' height={40} />
+                <img src='images/sponsors/camp.jpeg' className='sponsors'/>
               </Grid.Column>
               <Grid.Column>
-                <img src='images/sponsors/mri.jpeg' height={40} />
+                <img src='images/sponsors/maps.jpeg' className='sponsors'/>
               </Grid.Column>
               <Grid.Column>
-                <img src='images/sponsors/jhu.jpeg' height={40} />
+                <img src='images/sponsors/mri.jpeg' className='sponsors'/>
               </Grid.Column>
               <Grid.Column>
-                <img src='images/sponsors/nsk.jpeg' height={40} />
+                <img src='images/sponsors/jhu.jpeg' className='sponsors'/>
+              </Grid.Column>
+              <Grid.Column>
+                <img src='images/sponsors/nsk.jpeg' className='sponsors'/>
               </Grid.Column>
             </Grid.Row>
           </Grid>
