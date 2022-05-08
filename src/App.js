@@ -13,7 +13,7 @@ function App() {
             <Icon name='mail' /> shervin.dehghani@tum.de
           </Label>
           <Label color='red' as='a' href="https://arxiv.org/abs/2111.15373">
-            <Icon name='copy' /> Arxiv
+            <Icon name='copy' /> arXiv
           </Label>
           <Label as='a' href="">
             <Icon name='github' /> Code
